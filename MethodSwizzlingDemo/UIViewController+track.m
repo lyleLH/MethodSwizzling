@@ -6,11 +6,11 @@
 //  Copyright © 2017年 lyle. All rights reserved.
 //
 
-#import "UIViewController+MTLEventStatisticsViewController.h"
+#import "UIViewController+track.h"
 #import "MTLEventStatistics.h"
 #import <objc/runtime.h>
 
-@implementation UIViewController (MTLEventStatisticsViewController)
+@implementation UIViewController (track)
 
 void swizzleMethod(Class class,SEL originalSelector,SEL swizzledSelector) {
     static dispatch_once_t onceToken;

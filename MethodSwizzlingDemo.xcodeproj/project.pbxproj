@@ -12,7 +12,7 @@
 		982EFA761E6D03EF00D01516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 982EFA751E6D03EF00D01516 /* Assets.xcassets */; };
 		982EFA791E6D03EF00D01516 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 982EFA771E6D03EF00D01516 /* LaunchScreen.storyboard */; };
 		982EFA821E6D064A00D01516 /* MTLEventStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 982EFA811E6D064A00D01516 /* MTLEventStatistics.m */; };
-		982EFA851E6D09B600D01516 /* UIViewController+MTLEventStatisticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 982EFA841E6D09B600D01516 /* UIViewController+MTLEventStatisticsViewController.m */; };
+		982EFA851E6D09B600D01516 /* UIViewController+track.m in Sources */ = {isa = PBXBuildFile; fileRef = 982EFA841E6D09B600D01516 /* UIViewController+track.m */; };
 		982EFA891E6D0C2F00D01516 /* MTLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 982EFA871E6D0C2F00D01516 /* MTLViewController.m */; };
 		982EFA8A1E6D0C2F00D01516 /* MTLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 982EFA881E6D0C2F00D01516 /* MTLViewController.xib */; };
 		982EFA8E1E6D0D1800D01516 /* MTLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 982EFA8C1E6D0D1800D01516 /* MTLLoginViewController.m */; };
@@ -29,8 +29,8 @@
 		982EFA7A1E6D03EF00D01516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		982EFA801E6D064900D01516 /* MTLEventStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLEventStatistics.h; sourceTree = "<group>"; };
 		982EFA811E6D064A00D01516 /* MTLEventStatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLEventStatistics.m; sourceTree = "<group>"; };
-		982EFA831E6D09B600D01516 /* UIViewController+MTLEventStatisticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MTLEventStatisticsViewController.h"; sourceTree = "<group>"; };
-		982EFA841E6D09B600D01516 /* UIViewController+MTLEventStatisticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MTLEventStatisticsViewController.m"; sourceTree = "<group>"; };
+		982EFA831E6D09B600D01516 /* UIViewController+track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+track.h"; sourceTree = "<group>"; };
+		982EFA841E6D09B600D01516 /* UIViewController+track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+track.m"; sourceTree = "<group>"; };
 		982EFA861E6D0C2F00D01516 /* MTLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLViewController.h; sourceTree = "<group>"; };
 		982EFA871E6D0C2F00D01516 /* MTLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLViewController.m; sourceTree = "<group>"; };
 		982EFA881E6D0C2F00D01516 /* MTLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTLViewController.xib; sourceTree = "<group>"; };
@@ -79,8 +79,8 @@
 				982EFA8D1E6D0D1800D01516 /* MTLLoginViewController.xib */,
 				982EFA801E6D064900D01516 /* MTLEventStatistics.h */,
 				982EFA811E6D064A00D01516 /* MTLEventStatistics.m */,
-				982EFA831E6D09B600D01516 /* UIViewController+MTLEventStatisticsViewController.h */,
-				982EFA841E6D09B600D01516 /* UIViewController+MTLEventStatisticsViewController.m */,
+				982EFA831E6D09B600D01516 /* UIViewController+track.h */,
+				982EFA841E6D09B600D01516 /* UIViewController+track.m */,
 				982EFA751E6D03EF00D01516 /* Assets.xcassets */,
 				982EFA771E6D03EF00D01516 /* LaunchScreen.storyboard */,
 				982EFA7A1E6D03EF00D01516 /* Info.plist */,
@@ -175,7 +175,7 @@
 				982EFA6B1E6D03EF00D01516 /* main.m in Sources */,
 				982EFA891E6D0C2F00D01516 /* MTLViewController.m in Sources */,
 				982EFA8E1E6D0D1800D01516 /* MTLLoginViewController.m in Sources */,
-				982EFA851E6D09B600D01516 /* UIViewController+MTLEventStatisticsViewController.m in Sources */,
+				982EFA851E6D09B600D01516 /* UIViewController+track.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

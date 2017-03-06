@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "MTLViewController.h"
-#import "UIViewController+MTLEventStatisticsViewController.h"
+
 @interface AppDelegate ()
 
 @end
