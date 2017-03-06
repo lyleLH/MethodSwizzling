@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		982EFA6B1E6D03EF00D01516 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 982EFA6A1E6D03EF00D01516 /* main.m */; };
+		982EFA6E1E6D03EF00D01516 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 982EFA6D1E6D03EF00D01516 /* AppDelegate.m */; };
+		982EFA761E6D03EF00D01516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 982EFA751E6D03EF00D01516 /* Assets.xcassets */; };
+		982EFA791E6D03EF00D01516 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 982EFA771E6D03EF00D01516 /* LaunchScreen.storyboard */; };
+		982EFA821E6D064A00D01516 /* MTLEventStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 982EFA811E6D064A00D01516 /* MTLEventStatistics.m */; };
+		982EFA851E6D09B600D01516 /* UIViewController+MTLEventStatisticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 982EFA841E6D09B600D01516 /* UIViewController+MTLEventStatisticsViewController.m */; };
+		982EFA891E6D0C2F00D01516 /* MTLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 982EFA871E6D0C2F00D01516 /* MTLViewController.m */; };
+		982EFA8A1E6D0C2F00D01516 /* MTLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 982EFA881E6D0C2F00D01516 /* MTLViewController.xib */; };
+		982EFA8E1E6D0D1800D01516 /* MTLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 982EFA8C1E6D0D1800D01516 /* MTLLoginViewController.m */; };
+		982EFA8F1E6D0D1800D01516 /* MTLLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 982EFA8D1E6D0D1800D01516 /* MTLLoginViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		982EFA661E6D03EF00D01516 /* MethodSwizzlingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MethodSwizzlingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		982EFA6A1E6D03EF00D01516 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		982EFA6C1E6D03EF00D01516 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		982EFA6D1E6D03EF00D01516 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		982EFA751E6D03EF00D01516 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		982EFA781E6D03EF00D01516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		982EFA7A1E6D03EF00D01516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		982EFA801E6D064900D01516 /* MTLEventStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLEventStatistics.h; sourceTree = "<group>"; };
+		982EFA811E6D064A00D01516 /* MTLEventStatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLEventStatistics.m; sourceTree = "<group>"; };
+		982EFA831E6D09B600D01516 /* UIViewController+MTLEventStatisticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MTLEventStatisticsViewController.h"; sourceTree = "<group>"; };
+		982EFA841E6D09B600D01516 /* UIViewController+MTLEventStatisticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MTLEventStatisticsViewController.m"; sourceTree = "<group>"; };
+		982EFA861E6D0C2F00D01516 /* MTLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLViewController.h; sourceTree = "<group>"; };
+		982EFA871E6D0C2F00D01516 /* MTLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLViewController.m; sourceTree = "<group>"; };
+		982EFA881E6D0C2F00D01516 /* MTLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTLViewController.xib; sourceTree = "<group>"; };
+		982EFA8B1E6D0D1800D01516 /* MTLLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLLoginViewController.h; sourceTree = "<group>"; };
+		982EFA8C1E6D0D1800D01516 /* MTLLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLLoginViewController.m; sourceTree = "<group>"; };
+		982EFA8D1E6D0D1800D01516 /* MTLLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTLLoginViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		982EFA631E6D03EF00D01516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		982EFA5D1E6D03EF00D01516 = {
+			isa = PBXGroup;
+			children = (
+				982EFA681E6D03EF00D01516 /* MethodSwizzlingDemo */,
+				982EFA671E6D03EF00D01516 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		982EFA671E6D03EF00D01516 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				982EFA661E6D03EF00D01516 /* MethodSwizzlingDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		982EFA681E6D03EF00D01516 /* MethodSwizzlingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				982EFA6C1E6D03EF00D01516 /* AppDelegate.h */,
+				982EFA6D1E6D03EF00D01516 /* AppDelegate.m */,
+				982EFA861E6D0C2F00D01516 /* MTLViewController.h */,
+				982EFA871E6D0C2F00D01516 /* MTLViewController.m */,
+				982EFA881E6D0C2F00D01516 /* MTLViewController.xib */,
+				982EFA8B1E6D0D1800D01516 /* MTLLoginViewController.h */,
+				982EFA8C1E6D0D1800D01516 /* MTLLoginViewController.m */,
+				982EFA8D1E6D0D1800D01516 /* MTLLoginViewController.xib */,
+				982EFA801E6D064900D01516 /* MTLEventStatistics.h */,
+				982EFA811E6D064A00D01516 /* MTLEventStatistics.m */,
+				982EFA831E6D09B600D01516 /* UIViewController+MTLEventStatisticsViewController.h */,
+				982EFA841E6D09B600D01516 /* UIViewController+MTLEventStatisticsViewController.m */,
+				982EFA751E6D03EF00D01516 /* Assets.xcassets */,
+				982EFA771E6D03EF00D01516 /* LaunchScreen.storyboard */,
+				982EFA7A1E6D03EF00D01516 /* Info.plist */,
+				982EFA691E6D03EF00D01516 /* Supporting Files */,
+			);
+			path = MethodSwizzlingDemo;
+			sourceTree = "<group>";
+		};
+		982EFA691E6D03EF00D01516 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				982EFA6A1E6D03EF00D01516 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		982EFA651E6D03EF00D01516 /* MethodSwizzlingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 982EFA7D1E6D03EF00D01516 /* Build configuration list for PBXNativeTarget "MethodSwizzlingDemo" */;
+			buildPhases = (
+				982EFA621E6D03EF00D01516 /* Sources */,
+				982EFA631E6D03EF00D01516 /* Frameworks */,
+				982EFA641E6D03EF00D01516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MethodSwizzlingDemo;
+			productName = MethodSwizzlingDemo;
+			productReference = 982EFA661E6D03EF00D01516 /* MethodSwizzlingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		982EFA5E1E6D03EF00D01516 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MTL;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = lyle;
+				TargetAttributes = {
+					982EFA651E6D03EF00D01516 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 982EFA611E6D03EF00D01516 /* Build configuration list for PBXProject "MethodSwizzlingDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 982EFA5D1E6D03EF00D01516;
+			productRefGroup = 982EFA671E6D03EF00D01516 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				982EFA651E6D03EF00D01516 /* MethodSwizzlingDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		982EFA641E6D03EF00D01516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982EFA8F1E6D0D1800D01516 /* MTLLoginViewController.xib in Resources */,
+				982EFA791E6D03EF00D01516 /* LaunchScreen.storyboard in Resources */,
+				982EFA761E6D03EF00D01516 /* Assets.xcassets in Resources */,
+				982EFA8A1E6D0C2F00D01516 /* MTLViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		982EFA621E6D03EF00D01516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982EFA821E6D064A00D01516 /* MTLEventStatistics.m in Sources */,
+				982EFA6E1E6D03EF00D01516 /* AppDelegate.m in Sources */,
+				982EFA6B1E6D03EF00D01516 /* main.m in Sources */,
+				982EFA891E6D0C2F00D01516 /* MTLViewController.m in Sources */,
+				982EFA8E1E6D0D1800D01516 /* MTLLoginViewController.m in Sources */,
+				982EFA851E6D09B600D01516 /* UIViewController+MTLEventStatisticsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		982EFA771E6D03EF00D01516 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				982EFA781E6D03EF00D01516 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		982EFA7B1E6D03EF00D01516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		982EFA7C1E6D03EF00D01516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		982EFA7E1E6D03EF00D01516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MethodSwizzlingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyle.MethodSwizzlingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		982EFA7F1E6D03EF00D01516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MethodSwizzlingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyle.MethodSwizzlingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		982EFA611E6D03EF00D01516 /* Build configuration list for PBXProject "MethodSwizzlingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				982EFA7B1E6D03EF00D01516 /* Debug */,
+				982EFA7C1E6D03EF00D01516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		982EFA7D1E6D03EF00D01516 /* Build configuration list for PBXNativeTarget "MethodSwizzlingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				982EFA7E1E6D03EF00D01516 /* Debug */,
+				982EFA7F1E6D03EF00D01516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 982EFA5E1E6D03EF00D01516 /* Project object */;
+}
